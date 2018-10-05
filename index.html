@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<title>Download Marksheet</title>
+		<script>
+		
+		function clearForm1() {
+			document.forms[0].reset();
+		
+		};
+		
+		function clearForm2() {
+			document.forms[1].reset();
+		};
+		
+			
+		</script>
+
+	</head>
+		<body bgcolor="grey">
+   			<b><i><center><h2>MARKSHEET GENERATOR</h2></center></b></i>
+			
+			<d><div class="column" style="background-color:green;">
+				<B><center><h3><font size="6" color="white">STUDENT DETAILS</h3></center></B></font>
+					<BR>
+					<BR>
+					<BR>
+					<FORM action="login.php" method="post">
+					 <CENTER><b><FONT SIZE="6" COLOR="WHITE">REG NO  :</font></b>        <input type="text" name="reg_no" placeholder="Enter register no..." onchange="clearForm2()"></CENTER>
+							<br>
+							<br>
+							<br>
+
+						<CENTER><b><FONT SIZE="6" COLOR="WHITE">D.O.B  :</font></b>           <input type="text" name="dob" placeholder="Enter dob YYYY/MM/DD"></CENTER>  
+							<br>
+							<br>
+							<br>
+						 <center><button type="submit" name="button2">Generate Marksheet</button></center>
+					 
+						</form>
+
+
+
+</div></d>
+
+<div class="column1" style="background-color:red;">
+<font size="6" color="white"><center><h3>STAFF LOGIN</h3></center></font>
+<BR>
+<BR>
+<BR>
+<form action="login.php" method="post">
+            <CENTER><b><FONT SIZE="6" COLOR="white">USER NAME :</font></b>          <input placeholder="Enter username..." type="text" name="username" onchange="clearForm1()"></CENTER>
+ 			<br
+			<br>
+			<br>
+<CENTER><b><FONT SIZE="6" COLOR="white">PASSWORD :</font></b>         <input type="text" name="password" placeholder="Enter password..."></CENTER> 
+			<br>
+			<br>
+			<br>
+							
+			<center><button type="submit" name="button2">Log In</center>
+</PRE></form>
+</div>
+
+</body>
+</html>

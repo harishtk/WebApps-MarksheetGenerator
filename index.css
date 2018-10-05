@@ -1,0 +1,50 @@
+
+.column{float:left;
+				width:43%;
+				padding:20px;
+				border-radius:30px;
+				height:500px;
+				}
+			.column1{float:right;
+				width:43%;
+				opacity: 0.8;
+				border-radius:30px;
+				padding:20px;
+				height:500px;
+				}
+			
+			h2{border-radius:18px;
+				background-color:powderblue;
+				opacity: 0.8;
+				font-size:60px;
+				width:80%;
+				padding:10px;
+				box-shadow: 10px 10px 10px 10px black;
+				}
+			h3{ border-radius:10px;
+				font-size:40px;
+				font-color:black;
+					width:70%;
+				box-shadow: 10px 10px 10px 10px black;
+				}
+input: hover {
+	box-shadow: 5px 5px 10px 2px black;
+}
+				input{
+						font-size: 25px;
+						WIDTH:60%;
+						HEIGHT:40PX;	
+						BORDER-RADIUS:10PX;
+						BORDER:1PX SOLID BLUE;
+	
+						}
+
+button {
+	font-size: 30px;
+	border-radius: 5px;
+	
+}
+button:hover {
+	box-shadow: 5px 5px 10px 2px black;
+}
+	
